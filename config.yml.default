@@ -179,10 +179,10 @@ challenge:                                # Incoming challenges.
       - bullet
       - blitz
       - rapid
-#     - classical
+      - classical
 #     - 25+0
     modes:                                # Game modes to accept.
-#     - casual                            # Unrated games.
+      - casual                            # Unrated games.
       - rated                             # Rated games
   bot:                                    # Settings when the opponent is a BOT.
     bullet_with_increment_only: false     # Whether bullet games should only be accepted with increment.
